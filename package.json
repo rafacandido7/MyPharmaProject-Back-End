@@ -1,0 +1,34 @@
+{
+  "name": "mypharma",
+  "version": "1.0.0",
+  "description": "Projeto teste da MyPharma",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix ../client",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafacandido7/MyPharma.git"
+  },
+  "author": "Rafael Cândido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafacandido7/MyPharma/issues"
+  },
+  "homepage": "https://github.com/rafacandido7/MyPharma#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
