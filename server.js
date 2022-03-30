@@ -9,7 +9,7 @@ const bodyParser = require ('body-parser');
 const app = express();
 const port = process.env.PORT || 5000;
 
-mongoose.connect('mongodb+srv://rafacandido:Rafael07082002!@cluster0.ghz45.mongodb.net/MyPharma?retryWrites=true&w=majority' ,{
+mongoose.connect('mongodb+srv://admin:EmQl6lxtbJXS6HfN@cluster0.ghz45.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' ,{
     useUnifiedTopology:true,
     useNewUrlParser:true,
 }, function (err) {
