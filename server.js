@@ -22,7 +22,7 @@ mongoose.connect('mongodb+srv://admin:EmQl6lxtbJXS6HfN@cluster0.ghz45.mongodb.ne
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors({origin: '*'}));
 app.use(cookieParser());
 app.use(routes);
 
